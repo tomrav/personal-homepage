@@ -1,0 +1,35 @@
+
+/*
+    MAIN COLORS:
+
+    212E40
+    425D7F
+    638BBF
+    77A7E5
+    84B9FF
+
+*/
+
+.light-color {
+    color: #84B9FF;
+}
+
+.header-bg-color {
+    background-color: rgba(33,46,64, 0.5);
+}
+
+.main-container-color {
+    background-color: rgba(33,46,64, 0.5);
+}
+
+.background-color {
+    background-color: #425D7F;
+}
+
+.alt-content-bg {
+    background-color: #638BBF;
+}
+
+.alt-content-text-color {
+    color: #212E40;
+}
