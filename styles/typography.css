@@ -9,3 +9,15 @@ a:link, a:visited {
     color: inherit;
     text-decoration: inherit;
 }
+
+.no-bullet li {
+    list-style: none;
+}
+
+.img-quote {
+    font-size: small;
+}
+
+.img-quote cite {
+    text-align: right;
+}
