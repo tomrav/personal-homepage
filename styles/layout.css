@@ -51,9 +51,18 @@
 .clearfix:after {
     content: "";
     display: block;
-    clear: right;
+    clear: both;
 }
 
 .img-size {
     width: 400px;
+}
+
+.gallery-img {
+    width: 400px;
+    display: inline-block;
+}
+
+.gallery-img img {
+    width: 100%;
 }
