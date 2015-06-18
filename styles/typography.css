@@ -25,3 +25,17 @@ a:link, a:visited {
 .gallery-img figcaption {
     text-align: center;
 }
+
+.quote-of-the-day {
+
+}
+
+.quote-of-the-day cite {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.form-intro {
+    text-align: center;
+}

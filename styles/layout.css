@@ -3,12 +3,12 @@
     margin: 30px;
 }
 
-.menu-float li{
+.menu-float li {
     float: left;
     margin: 0 15px;
 }
 
-.menu-float:after{
+.menu-float:after {
     content: "";
     display: block;
     clear: both;
@@ -42,7 +42,7 @@
     display: block;
 }
 
-.float-right {
+.right-side-img {
     float: right;
     width: 400px;
     margin-left: 10px;
@@ -66,3 +66,64 @@
 .gallery-img img {
     width: 100%;
 }
+
+.img-container {
+    max-width: 500px;
+}
+
+.project-item-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-list dt {
+    font-size: larger;
+    padding-bottom: 15px;
+}
+
+.form-inner-container {
+    margin: 0 auto;
+    width: 45em;
+}
+
+.form-inner-container label {
+    display: block;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgba(132,185,255, 0.3);
+}
+
+.form-inner-container label:last-child {
+    border: none;
+}
+
+.form-inner-container label span{
+    vertical-align: top;
+    display: inline-block;
+    width: 15em;
+}
+
+.form-inner-container label select,
+.form-inner-container label textarea,
+.form-inner-container label input {
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+    width: 30em;
+    margin-bottom: 5px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background: #425D7F;
+    color: #84B9FF;
+    resize: none;
+    height: 2em;
+}
+
+/*.form-inner-container label input,*/
+/*.form-inner-container label select,*/
+/*.form-inner-container label textarea {*/
+    /*/!*display: inline-block;*!/*/
+    /*position: relative;*/
+    /*width: 200px;*/
+    /*right: 0px;*/
+/*}*/
