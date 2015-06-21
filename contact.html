@@ -54,7 +54,7 @@
 
     <form action="./blah" method="post">
         <div class="form-inner-container">
-            <label>
+            <label class="clearfix">
                 <span>
                     Title:
                 </span>
@@ -64,40 +64,42 @@
                     <option value="Ms">Ms.</option>
                 </select>
             </label>
-            <label for="name">
+            <label for="name" class="clearfix">
                 <span>
                     Full Name:
                 </span>
                 <input id="name" name="name" type="text" placeholder="John Smith" required/>
             </label>
-            <label for="email">
+            <label for="email" class="clearfix">
                 <span>
                     Your email:
                 </span>
                 <input id="email" name="email" type="email" placeholder="blah@blah.com" required/>
             </label>
-            <label for="question">
+            <label for="question" class="clearfix">
                 <span>
                     Your question:
                 </span>
                 <textarea id="question" name="question" placeholder="Enter your question here"></textarea>
             </label>
-            <label for="color">
+            <label for="color" class="clearfix">
                 <span>
                   Favorite color:
                 </span>
                 <input id="color" name="color" type="color"/>
             </label>
-            <label for="dateOfBirth">
+            <label for="dateOfBirth" class="clearfix">
                 <span>
                   Birthday:
                 </span>
                 <input id="dateOfBirth" name="dateOfBirth" type="date"/>
             </label>
+            <div class="clearfix submit">
+                <button type="submit" class="button-submit" value="Send your question!">
+                    Send your question
+                </button>
+            </div>
         </div>
-        <button type="submit">
-            Send your question!
-        </button>
 
     </form>
 </main>

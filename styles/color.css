@@ -33,3 +33,23 @@
 .alt-content-text-color {
     color: #212E40;
 }
+
+.form-inner-container label {
+    border-bottom: 1px solid rgba(132, 185, 255, 0.3);
+}
+
+.form-inner-container label:last-child {
+    border: none;
+}
+
+.form-inner-container label select,
+.form-inner-container label textarea,
+.form-inner-container label input {
+    background: #425D7F;
+    color: #84B9FF;
+}
+
+.button-submit {
+    color: #84B9FF;
+    background-color: #425D7F;
+}

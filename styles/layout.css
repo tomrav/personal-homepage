@@ -1,3 +1,6 @@
+/** {*/
+/*font-size: 10px;*/
+/*}*/
 
 .body-margin {
     margin: 30px;
@@ -83,47 +86,59 @@
 
 .form-inner-container {
     margin: 0 auto;
-    width: 45em;
+    width: 50%;
 }
 
 .form-inner-container label {
     display: block;
     padding: 10px 10px;
-    border-bottom: 1px solid rgba(132,185,255, 0.3);
 }
 
-.form-inner-container label:last-child {
-    border: none;
-}
-
-.form-inner-container label span{
+.form-inner-container label span {
     vertical-align: top;
+    float: left;
     display: inline-block;
-    width: 15em;
+    width: 40%;
 }
 
 .form-inner-container label select,
 .form-inner-container label textarea,
 .form-inner-container label input {
     -webkit-appearance: none;
+    box-sizing: border-box;
     border-radius: 0;
     display: inline-block;
-    width: 30em;
-    margin-bottom: 5px;
+    width: 60%;
     border: none;
-    padding: 0;
+    padding: 5px 5px;
     margin: 0;
-    background: #425D7F;
-    color: #84B9FF;
     resize: none;
-    height: 2em;
+    height: 2rem;
+    float: left;
 }
 
-/*.form-inner-container label input,*/
-/*.form-inner-container label select,*/
-/*.form-inner-container label textarea {*/
-    /*/!*display: inline-block;*!/*/
-    /*position: relative;*/
-    /*width: 200px;*/
-    /*right: 0px;*/
-/*}*/
+.form-inner-container label input[type='color'] {
+    padding: 1px 1px;
+}
+
+.submit {
+    margin: 0 10px;
+}
+
+.submit button::before {
+    content: "\2799";
+    margin: 0 5px;
+    font-size: large;
+    vertical-align: middle;
+}
+
+.button-submit {
+    width: 150px;
+    margin: 10px 0;
+    float: right;
+    line-height: 2em;
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+}
+
